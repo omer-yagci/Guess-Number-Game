@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+* {
+  font-family: "Odibee Sans", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body */
+body {
+  background: linear-gradient(135deg, #ed9371, #bbc9cd);
+  height: 100vh;
+  overflow: hidden;
+}
+/* Header */
+#header {
+  position: relative;
+}
+h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+  font-size: 5rem;
+  text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.9);
+  font-style: oblique;
+}
+h2 {
+  margin: 50px 0 30px;
+  text-align: center;
+  font-size: 3rem;
+}
+.secret-number {
+  position: relative;
+  font-size: 3rem;
+  background-color: #f3f3f3;
+  width: 10%;
+  left: 45%;
+  text-align: center;
+  padding: 0.5rem;
+}
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* input-buttons */
+input {
+  width: 50%;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+}
+.input-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  width: 100%;
+  background-color: #fcc5ba;
+  color: black;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin: 5px;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+/* Highscores */
+
+.highscores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 2rem;
+  margin: 2rem 0;
+  margin-left: 5rem;
+  font-size: 2rem;
+}
+.highscores p {
+  margin: 7px;
+}
